@@ -19,7 +19,7 @@ const FormBuilder = () => {
         event.preventDefault();
         const form = { title: formTitle, fields };
         try {
-            const response = await axios.post('https://refahi1378.pythonanywhere.com/forms/create', form);
+            const response = await axios.post('https://refahi1378.pythonanywhere.com/form/create', form);
             alert(`Form created with ID: ${response.data._id}`);
         } catch (error) {
             console.error('Error creating form:', error);
