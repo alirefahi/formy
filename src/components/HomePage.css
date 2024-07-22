@@ -1,0 +1,50 @@
+.home-page {
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+    min-height: 10vh;
+}
+
+.home-page h1 {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.home-page h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.home-page p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.home-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-page ul li {
+    margin: 10px 0;
+}
+
+.home-page ul li a {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-page ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}

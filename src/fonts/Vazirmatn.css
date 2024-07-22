@@ -1,0 +1,13 @@
+/* src/fonts/Vazirmatn.css */
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('./Vazirmatn-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
